@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Tentang Kami - KoTA</title>
@@ -13,11 +14,13 @@
             text-align: center;
             margin-bottom: 30px;
         }
+
         .profile-img {
             max-width: 150px;
             border-radius: 50%;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         footer {
             margin-top: 60px;
             padding: 20px 0;
@@ -27,6 +30,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Navbar -->
@@ -36,7 +40,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -64,19 +68,20 @@
             <div class="col-md-4">
                 <div class="card shadow-sm p-3 h-100">
                     <div class="text-center">
-                        <img src="{{ asset('images/profile1.jpg') }}" class="profile-img mb-3" alt="Profil 1">
-                        <h5>Andi Mahasiswa</h5>
-                        <span class="badge bg-success">Frontend Developer</span>
+                        <img src="{{ asset('images/Picture1.png') }}" class="profile-img mb-3" alt="Profil 1">
+                        <h5>Hasby Raihan</h5>
+                        <span class="badge bg-success">Flutter Mobile Developer</span>
                     </div>
                     <ul class="list-group list-group-flush mt-3">
-                        <li class="list-group-item"><strong>NIM:</strong> 123456789</li>
-                        <li class="list-group-item"><strong>Email:</strong> andi@example.com</li>
-                        <li class="list-group-item"><strong>Keahlian:</strong> Laravel, JavaScript, SQL</li>
-                        <li class="list-group-item"><strong>Pendidikan:</strong> S1 Teknik Informatika - Universitas Contoh</li>
+                        <li class="list-group-item"><strong>NIM:</strong> 221511014</li>
+                        <li class="list-group-item"><strong>Email:</strong> hasby.raihan.tif22@polban.ac.id</li>
+                        <li class="list-group-item"><strong>Keahlian:</strong> Flutter, FlutterFlow</li>
+                        <li class="list-group-item"><strong>Pendidikan:</strong> D3 Teknik Informatika - Politeknik
+                            Negeri Bandung (ongoing)</li>
                         <li class="list-group-item"><strong>Proyek:</strong>
                             <ul>
-                                <li>Penjadwalan Otomatis</li>
-                                <li>Web Kegiatan Mahasiswa</li>
+                                <li>Desain Antar Muka Mobile</li>
+                                <li>Implementasi Mobile</li>
                             </ul>
                         </li>
                     </ul>
@@ -87,19 +92,20 @@
             <div class="col-md-4">
                 <div class="card shadow-sm p-3 h-100">
                     <div class="text-center">
-                        <img src="{{ asset('images/profile2.jpg') }}" class="profile-img mb-3" alt="Profil 2">
-                        <h5>Budi Mahasiswa</h5>
-                        <span class="badge bg-primary">Backend Developer</span>
+                        <img src="{{ asset('images/Picture2.png') }}" class="profile-img mb-3" alt="Profil 2">
+                        <h5>Adrian Eka Saputra</h5>
+                        <span class="badge bg-primary">Back-End Developer</span>
                     </div>
                     <ul class="list-group list-group-flush mt-3">
-                        <li class="list-group-item"><strong>NIM:</strong> 987654321</li>
-                        <li class="list-group-item"><strong>Email:</strong> budi@example.com</li>
+                        <li class="list-group-item"><strong>NIM:</strong> 221511036</li>
+                        <li class="list-group-item"><strong>Email:</strong> adrian.eka.tif22@polban.ac.id</li>
                         <li class="list-group-item"><strong>Keahlian:</strong> PHP, MySQL, API Development</li>
-                        <li class="list-group-item"><strong>Pendidikan:</strong> S1 Teknik Informatika - Universitas Contoh</li>
+                        <li class="list-group-item"><strong>Pendidikan:</strong> D3 Teknik Informatika - Politeknik
+                            Negeri Bandung (ongoing)</li>
                         <li class="list-group-item"><strong>Proyek:</strong>
                             <ul>
-                                <li>API Penjadwalan</li>
-                                <li>Sistem Informasi Akademik</li>
+                                <li>Pembuatan API</li>
+                                <li>Deployment Aplikasi </li>
                             </ul>
                         </li>
                     </ul>
@@ -110,19 +116,20 @@
             <div class="col-md-4">
                 <div class="card shadow-sm p-3 h-100">
                     <div class="text-center">
-                        <img src="{{ asset('images/profile3.jpg') }}" class="profile-img mb-3" alt="Profil 3">
-                        <h5>Citra Mahasiswi</h5>
-                        <span class="badge bg-warning text-dark">UI/UX Designer</span>
+                        <img src="{{ asset('images/Picture3.jpg') }}" class="profile-img mb-3" alt="Profil 3">
+                        <h5>Muhammad Adi Saputera</h5>
+                        <span class="badge bg-warning text-dark">Front-End Developer</span>
                     </div>
                     <ul class="list-group list-group-flush mt-3">
-                        <li class="list-group-item"><strong>NIM:</strong> 112233445</li>
-                        <li class="list-group-item"><strong>Email:</strong> citra@example.com</li>
+                        <li class="list-group-item"><strong>NIM:</strong> 221511056</li>
+                        <li class="list-group-item"><strong>Email:</strong> muhammad.adi.tif22@polban.ac.id</li>
                         <li class="list-group-item"><strong>Keahlian:</strong> Figma, HTML/CSS, Bootstrap</li>
-                        <li class="list-group-item"><strong>Pendidikan:</strong> S1 Teknik Informatika - Universitas Contoh</li>
+                        <li class="list-group-item"><strong>Pendidikan:</strong> D3 Teknik Informatika - Politeknik
+                            Negeri Bandung (ongoing)</li>
                         <li class="list-group-item"><strong>Proyek:</strong>
                             <ul>
-                                <li>Desain Antarmuka Jadwal</li>
-                                <li>Aplikasi UI Mahasiswa</li>
+                                <li>Desain Antarmuka Web</li>
+                                <li>Implementasi Web</li>
                             </ul>
                         </li>
                     </ul>
@@ -139,4 +146,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
